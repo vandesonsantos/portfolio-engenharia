@@ -1,0 +1,216 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2? family= Oswald:wght@200;300;400;500;600;700 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --cor1: #60BF81;
+    --cor2: #347355;
+    --cor3: #213140;
+    --cor4: #e9ecef;
+
+    --font-titulo: 'Oswald', Sans-Serif;
+    --fonte-destaque: 'Rajdhani', sans-serif;
+    --fonte-padrao: Arial, Verdana, Helvetica, Sans-Serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* MENU */
+.menu {
+    background-color: var(--cor2);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.100)
+}
+
+.menu .logo {
+    color: var(--cor4);
+    font-family: var(--font-titulo);
+    font-size: 1.3rem;
+    text-decoration: none;
+    display:inline-block;
+    padding: 0.3125rem 0.5rem;
+    line-height: inherit;
+    white-space: nowrap;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.220);
+}
+
+.itens-menu {
+    color: var(--cor4);
+    font-family: var(--font-titulo);
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.200);
+}
+
+.menu a:hover {
+    color: var(--cor3);
+    background-color: #ff984f25;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* CABEÇALHO */
+.cabecalho {
+    background-color: var(--cor1);
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.foto-perfil {
+    height: 100%;
+    width: auto;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.cabecalho h1 {
+    color: var(--cor3);
+    font-family: var(--font-titulo);
+    font-weight: 700;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.342);
+}
+
+.cabecalho p {
+    color: var(--cor3);
+    font-family: var(--fonte-padrao);
+    font-size: 1.3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.178);
+}
+
+.icones {
+    padding-left: 5px;
+    color: var(--cor3);
+}
+
+
+/* PROJETOS */
+.projetos {
+    padding-bottom: 3rem!important;
+    padding-top: 3rem!important;
+    background-color: var(--cor4);
+    color: var(--cor3);
+    font-family: var(--font-titulo);
+}
+
+.titulos-projetos {
+    font-family: var(--fonte-destaque);
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: 700;
+    color: var(--cor3);
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.300);
+}
+
+.conteudo-projeto {
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15;
+    margin-right: -15;
+}
+
+.cartao {
+    position: relative;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.50rem;
+}
+
+.informacao {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: justify;
+    background-color: #60bf8100;
+}
+
+
+/* SOBRE MIM */
+.sobre-mim {
+    background-color: var(--cor1);
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.sobre-mim h2 {
+    font-family: var(--fonte-destaque);
+    color: var(--cor3);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.205);
+    padding-bottom: 20px;
+}
+
+.sobre-mim p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: var(--cor3);
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+    padding: 25px;
+}
+
+/* DEPOIMENTOS */
+.depoimento {
+    padding: 2rem 1rem;
+    background-color: var(--cor4);
+    border-radius: 0.3rem;
+    text-align: center;
+}
+
+.depoimento h2 {
+    font-family: var(--fonte-destaque);
+    color: var(--cor3);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.205);
+}
+
+/* CONTATO */
+.contato {
+    background-color: var(--cor1);
+    text-align: center;
+}
+
+.contato h3 {
+    font-family: var(--fonte-destaque);
+    color: var(--cor3);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.205);
+}
+
+.contato .container-fluid {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+
+.depoimento h2 {
+    padding: 4rem 2rem;
+    margin-bottom: 2rem;
+}
+
+/* RODAPÉ */
+.rodape {
+    background-color: var(--cor2);
+    font-family: var(--font-titulo);
+    color: var(--cor4);
+    text-align: center;
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

@@ -1,0 +1,70 @@
+@charset "UTF-08";
+
+@import url('https://fonts.googleapis.com/css2? family= Oswald:wght@200;300;400;500;600;700 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --cor1: #60BF81;
+    --cor2: #347355;
+    --cor3: #213140;
+    --cor4: #e9ecef;
+
+    --font-titulo: 'Oswald', Sans-Serif;
+    --fonte-destaque: 'Rajdhani', sans-serif;
+    --fonte-padrao: Arial, Verdana, Helvetica, Sans-Serif;
+}
+
+/* MENU */
+.menu {
+    background-color: var(--cor2);
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.100)
+}
+
+.menu .logo {
+    color: var(--cor4);
+    font-family: var(--font-titulo);
+    font-size: 1.3rem;
+    text-decoration: none;
+    display:inline-block;
+    padding: 0.3125rem 0.5rem;
+    line-height: inherit;
+    white-space: nowrap;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.220);
+}
+
+.itens-menu {
+    color: var(--cor4);
+    font-family: var(--font-titulo);
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.200);
+}
+
+.menu a:hover {
+    color: var(--cor3);
+    background-color: #ff984fc7;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* BOTÃO WHATSAPP */
+.whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
