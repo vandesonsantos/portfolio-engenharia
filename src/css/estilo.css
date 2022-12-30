@@ -163,15 +163,15 @@ html {
     padding: 25px;
 }
 
-/* DEPOIMENTOS */
-.depoimento {
+/* HABILIDADES */
+.habilidades {
     padding: 2rem 1rem;
     background-color: var(--cor4);
     border-radius: 0.3rem;
     text-align: center;
 }
 
-.depoimento h2 {
+.habilidades h2 {
     font-family: var(--fonte-destaque);
     color: var(--cor3);
     text-transform: uppercase;
