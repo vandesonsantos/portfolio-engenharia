@@ -143,6 +143,7 @@ html {
     background-color: var(--cor1);
     text-align: center;
     padding: 4rem 2rem;
+    box-shadow: 10px 10px 10px 10px #00000091;
 }
 
 .sobre-mim h2 {
