@@ -202,6 +202,7 @@ html {
     background-position: left;
     background-color: var(--cor1);
     text-align: center;
+    padding-bottom: 10%;
 }
 
 .contato .container-contato {
@@ -211,17 +212,18 @@ html {
 
 .contato h3 {
     font-family: var(--fonte-destaque);
-    color: var(--cor3);
+    color: rgba(0, 0, 0, 0.637);
     text-transform: uppercase;
     font-weight: 700;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.205);
 }
 
-.contato p {
+.contato a p {
     font-size: 1.25rem;
-    color: var(--cor3);
+    color: #e1e5e9;
     font-weight: 500;
     font-style: italic;
+    text-decoration: none;
 }
 
 /* RODAPÉ */
