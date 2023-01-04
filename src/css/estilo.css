@@ -165,10 +165,11 @@ html {
 
 /* HABILIDADES */
 .habilidades {
-    background-image: url(../imagens/fundo.jpg);
+    background-image: url(../imagens/foto-habilidades.png);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 5rem 1rem;
+    padding: 6.5rem 5rem;
     background-color: var(--cor4);
     border-radius: 0.3rem;
     text-align: center;
@@ -195,6 +196,10 @@ html {
 
 /* CONTATO */
 .contato {
+    background-image: url(../imagens/oportunidades.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
     background-color: var(--cor1);
     text-align: center;
 }
