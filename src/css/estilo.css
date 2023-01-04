@@ -173,7 +173,7 @@ html {
     background-color: var(--cor4);
     border-radius: 0.2rem;
     text-align: center;
-    box-shadow: 10px 10px 10px 10px #00000091;
+    box-shadow: 10px 10px 10px 15px #00000091;
 }
 
 .habilidades h2 {
