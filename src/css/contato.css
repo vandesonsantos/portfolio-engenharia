@@ -80,6 +80,15 @@
     text-align: justify;
 }
 
+.midias-socias {
+    list-style: none;
+    display: inline-flex;
+}
+
+.midias-socias li {
+    padding: 5px;
+}
+
 /* BOTÃO WHATSAPP */
 .whatsapp {
     position: fixed;
