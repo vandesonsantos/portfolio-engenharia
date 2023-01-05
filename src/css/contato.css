@@ -69,8 +69,15 @@
     text-align: center;   
 }
 
-.nome {
+.informacoes-vandeson .nome {
+    font-family: var(--fonte-destaque);
+    font-weight: bolder;
     text-align: left;
+}
+
+.informacoes-vandeson p {
+    font-family: var(--font-titulo);
+    text-align: justify;
 }
 
 /* BOTÃO WHATSAPP */
