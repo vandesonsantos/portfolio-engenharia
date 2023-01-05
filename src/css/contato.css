@@ -49,8 +49,24 @@
     border-radius: 5px;
 }
 
+.contato-perfil {
+    display: block;
+    padding: 20px;
+}
 
+.perfil-vandeson {
+    box-shadow: 5px 5px 5px black;
+}
 
+.informacoes-vandeson {
+    padding: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.250);
+    text-align: center;   
+}
+
+.nome {
+    text-align: left;
+}
 
 /* BOTÃO WHATSAPP */
 .whatsapp {
