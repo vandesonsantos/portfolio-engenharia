@@ -53,12 +53,15 @@
 .contato-perfil {
     display: block;
     padding: 20px;
-    margin-top: 30px;
+    background-image: url(../imagens/office-desk-6180925_1920_magic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }
 
 .conteiner-foto-perfil {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.788);
-    border-radius: 10px;
+    border-radius: 5px;
     background-image: url(../imagens/earth-1756274_1280.jpg);
     background-repeat: no-repeat;
     background-size: cover;
