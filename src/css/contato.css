@@ -53,13 +53,16 @@
 .contato-perfil {
     display: block;
     padding: 20px;
-    background-image: url(../imagens/earth-1756274_1280.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% ;
+    margin-top: 30px;
 }
 
 .conteiner-foto-perfil {
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.788);
+    border-radius: 10px;
+    background-image: url(../imagens/earth-1756274_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .conteiner-foto-perfil img {
