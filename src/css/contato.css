@@ -49,9 +49,13 @@
     border-radius: 5px;
 }
 
+/* CONTATO */
 .contato-perfil {
     display: block;
     padding: 20px;
+    background-image: url(../imagens/earth-1756274_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
 }
 
 .conteiner-foto-perfil {
